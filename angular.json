@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-awesome-quiz-app"
+    }
+  },
+  "defaultProject": "my-awesome-quiz-app",
+  "cli": {
+    "analytics": "cbff8ae7-e6db-418b-a0ed-06ac6fcabe5e"
+  }
 }
