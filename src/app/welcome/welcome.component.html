@@ -1,0 +1,17 @@
+<p>welcome works!</p>
+<div>
+  <div color="primary">
+    <div class="title"> Quizzes</div>
+  </div>
+  <div *ngFor="let q of quiz">
+    <div>
+        <div>{{q.label}}</div>
+        <div>{{q.description}}</div>
+        <div>
+          <button mat-button color="secondary" class="btn btn-primary">
+            <a routerLink="/{{q.name}}" class="btn btn-primary">Select this quiz</a>
+          </button>
+        </div>
+    </div>
+  </div>
+</div>
