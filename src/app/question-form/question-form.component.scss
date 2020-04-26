@@ -1,0 +1,60 @@
+$primary: rgb(133, 54, 179);
+$secondary: rgb(236, 233, 229);
+
+body {
+  height: 100%;
+  background-color: $secondary;
+
+}
+
+mat-toolbar {
+  text-align: center;
+  background-color: $primary;
+
+
+}
+
+mat-toolbar span {
+  width: 100%;
+  color: $secondary;
+}
+
+.question-card {
+  background-color: $primary;
+  border-radius: 20px;
+  color: $secondary;
+  padding: 10px;
+  margin: 80px auto 50px auto;;
+  text-align: center;
+  height: 400px;
+  width: 400px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, .5);
+}
+
+.question-card h1 {
+  padding: 20px;
+  height: 20%;
+}
+
+.form-group {
+  width: 33%; 
+  text-align: right;
+  margin: 0 auto;
+}
+
+.form-group label {
+  margin: 0 auto;
+  text-align: left;
+  width: 80%;
+  padding: 10px 0;
+}
+
+.question-card .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+form span {
+  padding-left: 10px;
+  font-size: 16px;
+}

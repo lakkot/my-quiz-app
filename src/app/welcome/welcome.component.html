@@ -1,17 +1,23 @@
-<p>welcome works!</p>
-<div>
-  <div color="primary">
-    <div class="title"> Quizzes</div>
+<body>
+  <mat-toolbar>
+    <span>Angular Quiz App</span>
+  </mat-toolbar>
+  <h2>Welcome to the quiz app!</h2>
+  <div class="content">
+    <mat-card-title>Quizzes</mat-card-title>
   </div>
-  <div *ngFor="let q of quiz">
-    <div>
-        <div>{{q.label}}</div>
-        <div>{{q.description}}</div>
-        <div>
-          <button mat-button color="secondary" class="btn btn-primary">
-            <a routerLink="/{{q.name}}" class="btn btn-primary">Select this quiz</a>
-          </button>
-        </div>
+  <div class="card-area">
+    <div *ngFor="let q of quiz" >
+      <div class="quiz-card">
+          <mat-card-subtitle>{{q.label}}</mat-card-subtitle>
+          <mat-card-content>{{q.description}}</mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button>
+              <a routerLink="/{{q.name}}">Go to quiz</a>
+            </button>
+          </mat-card-actions>
+      </div>
     </div>
   </div>
-</div>
+</body>
+

@@ -1,7 +1,57 @@
+$primary: rgb(133, 54, 179);
+$secondary: rgb(236, 233, 229);
+
+body {
+  background-color: $secondary;
+
+}
+
+mat-toolbar {
+  text-align: center;
+  background-color: $primary;
+
+
+}
+
+mat-toolbar span {
+  width: 100%;
+  color: $secondary;
+}
+
 .answer {
-  color: darkred;
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: rgb(255, 164, 164);
 }
 
 .correct {
-  color: darkgreen;
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: rgb(155, 255, 155);
+}
+
+.gohome {
+  margin: 20px;
+}
+
+.results {
+  width: 100%;
+  text-align: center;
+}
+
+.results-card {
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  background-color: $primary;
+  border-radius: 20px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, .5);
+
+}
+
+.results-card h2 {
+  color: $secondary;
+  font-size: 24px;
+  padding: 25px;
+  height: 30%;
 }
