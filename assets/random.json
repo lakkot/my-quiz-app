@@ -1,0 +1,47 @@
+[
+  {
+    "label": "How many yaers did a 100 Years War last?",
+    "choices": [
+      {"value": "116", "correct": true},
+      {"value": "100", "correct": false},
+      {"value": "10", "correct": false},
+      {"value": "150", "correct": false}
+    ]
+  },
+  {
+    "label": "What was the Capital of West Germay?",
+    "choices": [
+      {"value": "Berlin", "correct": false},
+      {"value": "Munich", "correct": false},
+      {"value": "Bonn", "correct": true},
+      {"value": "Frankfurt", "correct": false}
+    ]
+  },
+  {
+    "label": "How many States does the US have?",
+    "choices": [
+      {"value": "50", "correct": true},
+      {"value": "52", "correct": false},
+      {"value": "48", "correct": false},
+      {"value": "35", "correct": false}
+    ]
+  },
+  {
+    "label": "What is the biggest country in the World?",
+    "choices": [
+      {"value": "USA", "correct": false},
+      {"value": "Canada", "correct": false},
+      {"value": "Russia", "correct": true},
+      {"value": "China", "correct": false}
+    ]
+  },
+  {
+    "label": "How many continents are there?",
+    "choices": [
+      {"value": "5", "correct": false},
+      {"value": "7", "correct": true},
+      {"value": "9", "correct": false},
+      {"value": "3", "correct": false}
+    ]
+  }
+]
