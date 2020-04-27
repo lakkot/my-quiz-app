@@ -1,0 +1,86 @@
+$primary: rgb(133, 54, 179);
+$secondary: rgb(236, 233, 229);
+
+body {
+  background-color: $secondary;
+
+}
+
+mat-toolbar {
+  text-align: center;
+  background-color: $primary;
+
+
+}
+
+mat-toolbar span {
+  width: 100%;
+  color: $secondary;
+}
+
+h2 {
+  color: $primary;
+  text-align: center;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+
+
+mat-card-title {
+  color: $primary;
+  text-align: center;
+  width: 100%;
+}
+
+.card-area {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 70%;
+
+}
+
+.quiz-card {
+  background-color: $primary;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, .5);
+}
+
+.quiz-card mat-card-subtitle {
+  color: $secondary;
+  padding: 15px;
+  font-size: 36px;
+  height: 25%;
+}
+
+.quiz-card mat-card-content {
+  color: $secondary;
+  padding-bottom: 15px;
+  height: 30%;
+}
+
+button {
+  background-color: $secondary;
+}
+
+button a {
+  text-decoration: none;
+}
+
+.content {
+padding-top: 20px;
+width: 100%;
+text-align: center;
+
+}
+// border: 1px solid black;

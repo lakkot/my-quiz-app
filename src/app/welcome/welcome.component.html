@@ -1,0 +1,23 @@
+<body>
+  <mat-toolbar>
+    <span>Angular Quiz App</span>
+  </mat-toolbar>
+  <h2>Welcome to the quiz app!</h2>
+  <div class="content">
+    <mat-card-title>Quizzes</mat-card-title>
+  </div>
+  <div class="card-area">
+    <div *ngFor="let q of quiz" >
+      <div class="quiz-card">
+          <mat-card-subtitle>{{q.label}}</mat-card-subtitle>
+          <mat-card-content>{{q.description}}</mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button>
+              <a routerLink="/{{q.name}}">Go to quiz</a>
+            </button>
+          </mat-card-actions>
+      </div>
+    </div>
+  </div>
+</body>
+

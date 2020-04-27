@@ -1,0 +1,20 @@
+$primary: rgb(133, 54, 179);
+$secondary: rgb(236, 233, 229);
+
+.quiz {
+  background-color: $secondary;
+  height: 100%;
+}
+
+button {
+  font-size: 18px;;
+  height: 50px;
+  width: 150px;
+  text-decoration: none;
+  color: $primary;
+  
+}
+
+.questions {
+  text-align: center;
+}

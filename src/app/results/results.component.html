@@ -1,0 +1,13 @@
+<mat-toolbar>
+  <span>Angular Quiz App</span>
+</mat-toolbar>
+<a mat-raised-button routerLink="/welcome" class="gohome">Choose another quiz</a>
+<div class="results">
+  <div class="results-card">
+    <h2>Results</h2>
+    <div class="answer" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
+      {{a.value}}
+    </div>
+  </div>
+
+</div>
