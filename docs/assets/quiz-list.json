@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Random",
+    "name": "random",
+    "description": "Questions from all over the place",
+    "fileName": "random.json"
+  },
+  {
+    "label": "French",
+    "name": "french",
+    "description": "Test your knowledge of French language",
+    "fileName": "french.json"
+  },
+  {
+    "label": "Math",
+    "name": "math",
+    "description": "Simple math test",
+    "fileName": "math.json"
+  }
+]
